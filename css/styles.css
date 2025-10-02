@@ -91,10 +91,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo {
-  padding: 24px 0;
-  margin-right: 76px;
-}
 
 .header-logo .logo-dark {
   color: #2e2f42;
@@ -115,6 +111,11 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+}
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .header-nav {
@@ -292,7 +293,7 @@ img {
 }
 
 .team-item-caption {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -349,7 +350,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-content {
@@ -376,7 +377,7 @@ img {
 
 .footer-logo {
   display: flex;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-slogan {
